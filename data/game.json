@@ -1,0 +1,39 @@
+{
+  "zones": {
+    "default": "world",
+    "list": ["world", "forest", "dungeon_01"],
+    "client_travel": true
+  },
+  "character": {
+    "health": 100,
+    "stamina": 100,
+    "max_level": 50,
+    "exp_per_level": 100
+  },
+  "appearance": {
+    "parts": ["hair", "beard", "eyes", "skin"],
+    "numbers": {
+      "height": [0.0, 1.0],
+      "build": [0.0, 1.0]
+    }
+  },
+  "inventory": {
+    "pocket": [4, 8],
+    "equipment_slots": ["head", "chest", "legs", "feet", "back", "main_hand", "off_hand"],
+    "carry": ["pocket", "back"],
+    "pickup_range": 4.0
+  },
+  "movement": {
+    "numbers": {
+      "x": 100000, "y": 100000, "z": 100000, "rot": 1000,
+      "speed": 50, "vy": 100
+    },
+    "flags": ["air", "crouch"],
+    "texts": {"anim": 32},
+    "per_second": 20
+  },
+  "chat": {
+    "max_length": 200,
+    "per_second": 2
+  }
+}

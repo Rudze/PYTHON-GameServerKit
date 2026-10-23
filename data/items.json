@@ -1,0 +1,20 @@
+{
+  "items": [
+    {"id": "stone", "name": "Stone", "stackable": true, "max_stack": 50},
+    {"id": "wood_log", "name": "Wood log", "width": 2, "height": 1, "stackable": true, "max_stack": 20},
+    {"id": "health_potion", "name": "Health potion", "stackable": true, "max_stack": 10, "provides": ["potion"]},
+    {"id": "iron_sword", "name": "Iron sword", "width": 1, "height": 3, "equip_slot": "main_hand"},
+    {"id": "wooden_shield", "name": "Wooden shield", "width": 2, "height": 2, "equip_slot": "off_hand"},
+    {"id": "leather_cap", "name": "Leather cap", "width": 2, "height": 2, "equip_slot": "head"},
+    {"id": "leather_boots", "name": "Leather boots", "width": 2, "height": 2, "equip_slot": "feet"},
+    {"id": "small_backpack", "name": "Small backpack", "width": 3, "height": 3, "equip_slot": "back",
+     "container": {"kind": "grid", "rows": 4, "cols": 5}},
+    {"id": "potion_belt", "name": "Potion belt", "width": 2, "height": 1, "equip_slot": "legs",
+     "container": {"kind": "slots", "slots": [
+       {"name": "left", "accepts": ["potion"]},
+       {"name": "right", "accepts": ["potion"]}
+     ]}},
+    {"id": "wooden_chest", "name": "Wooden chest", "width": 4, "height": 3,
+     "container": {"kind": "grid", "rows": 6, "cols": 8}}
+  ]
+}
